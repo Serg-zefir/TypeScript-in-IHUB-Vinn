@@ -1,0 +1,10 @@
+{
+    "name": "intro-to-typescript",
+    "version": "1.0.0",
+    "description": "Introduction to TypeScript",
+    "scripts": {
+        "tsc": "tsc",
+        "tsc:w": "tsc --watch",
+        "start": "npm run tsc"
+    }
+}
