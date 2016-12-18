@@ -1,5 +1,5 @@
 interface Person {
-    dem: string;
+    FirstName: string;
     lastName: string;
 }
 class Student {
@@ -16,9 +16,9 @@ class Greter{
     }
 }
 function greeter(member : Person) {
-    return "Hello, " + member.dem + " " + member.lastName;
+    return "Hello, " + member.FirstName + " " + member.lastName;
 }
 
 // var user = new Student("Jane", "M.", "User");
 
-document.body.innerHTML = greeter({dem: 'Serg', lastName: 'Takij'});
+document.body.innerHTML = greeter({FirstName: 'Serg', lastName: 'Takij'});

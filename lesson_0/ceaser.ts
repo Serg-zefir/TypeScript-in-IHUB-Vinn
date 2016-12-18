@@ -4,7 +4,7 @@
 // 12.2016 в IHUB Vinnytsia
 // 
 
-class Ceaser {
+ class Ceaser {
     impera(StrinG:string, key: number) {
         let outString: string='';
         for (let char of StrinG){

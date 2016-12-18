@@ -15,7 +15,7 @@ var Greter = (function () {
     return Greter;
 }());
 function greeter(member) {
-    return "Hello, " + member.dem + " " + member.lastName;
+    return "Hello, " + member.FirstName + " " + member.lastName;
 }
 // var user = new Student("Jane", "M.", "User");
-document.body.innerHTML = greeter({ dem: 'Serg', lastName: 'Takij' });
+document.body.innerHTML = greeter({ FirstName: 'Serg', lastName: 'Takij' });
